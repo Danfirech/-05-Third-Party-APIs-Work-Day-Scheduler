@@ -1,7 +1,8 @@
 var today = moment().format('dddd, MMMM Do')
 
-function addHeaderDate() {
+function getHeaderDate() {
+  var today = moment().format('dddd, MMMM Do')
   $('#currentDay').text(today)
 }
 
-console.log(today)
+getHeaderDate()
